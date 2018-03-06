@@ -1,14 +1,14 @@
-import ChangeMyNameDatasource from './datasource';
-import {ChangeMyNameQueryCtrl} from './query_ctrl';
-import {ChangeMyNameConfigCtrl} from './config_ctrl';
+import GADatasource from './datasource';
+import {GAQueryCtrl} from './query_ctrl';
+import {GAConfigCtrl} from './config_ctrl';
 
-class ChangeMyNameAnnotationsQueryCtrl {
+class GAAnnotationsQueryCtrl {
   static templateUrl = 'partials/annotations.editor.html';
 }
 
 export {
-  ChangeMyNameDatasource as Datasource,
-  ChangeMyNameQueryCtrl as QueryCtrl,
-  ChangeMyNameConfigCtrl as ConfigCtrl,
-  ChangeMyNameAnnotationsQueryCtrl as AnnotationsQueryCtrl,
+  GADatasource as Datasource,
+  GAQueryCtrl as QueryCtrl,
+  GAConfigCtrl as ConfigCtrl,
+  GAAnnotationsQueryCtrl as AnnotationsQueryCtrl,
 };

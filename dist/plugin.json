@@ -1,21 +1,21 @@
 {
   "type": "datasource",
-  "name": "Change My Name",
-  "id": "orgname-pluginname-datasource",
+  "name": "google analytics",
+  "id": "orange-ga-datasource",
 
   "info": {
     "description": "Description of plugin",
     "author": {
-      "name": "Your name or the company name",
+      "name": "Darrigues bruno",
       "url": "optional url"
     },
-    "keywords": ["searchable", "key", "words"],
+    "keywords": ["searchable", "key", "words", "analytics"],
     "logos": {
       "small": "img/your_logo.png",
       "large": "img/your_logo.png"
     },
     "links": [
-      {"name": "Project site", "url": "https://github.com/yourorg/your-datasource"},
+      {"name": "Project site", "url": "https://github.com/brusand/grafana-ga-datasource"},
       {"name": "Apache License", "url": "https://github.com/yourorg/your-datasource/blob/master/LICENSE"}
     ],
     "version": "0.0.1",

@@ -1,7 +1,7 @@
-import ChangeMyNameDatasource from './datasource';
-import { ChangeMyNameQueryCtrl } from './query_ctrl';
-import { ChangeMyNameConfigCtrl } from './config_ctrl';
-declare class ChangeMyNameAnnotationsQueryCtrl {
+import GADatasource from './datasource';
+import { GAQueryCtrl } from './query_ctrl';
+import { GAConfigCtrl } from './config_ctrl';
+declare class GAAnnotationsQueryCtrl {
     static templateUrl: string;
 }
-export { ChangeMyNameDatasource as Datasource, ChangeMyNameQueryCtrl as QueryCtrl, ChangeMyNameConfigCtrl as ConfigCtrl, ChangeMyNameAnnotationsQueryCtrl as AnnotationsQueryCtrl };
+export { GADatasource as Datasource, GAQueryCtrl as QueryCtrl, GAConfigCtrl as ConfigCtrl, GAAnnotationsQueryCtrl as AnnotationsQueryCtrl };

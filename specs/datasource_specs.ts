@@ -4,7 +4,7 @@ import TemplateSrvStub from './lib/template_srv_stub';
 import Q from 'q';
 import moment from 'moment';
 
-describe('ChangeMyNameDatasource', function() {
+describe('GADatasource', function() {
   let ctx: any = {
     backendSrv: {},
     templateSrv: new TemplateSrvStub()

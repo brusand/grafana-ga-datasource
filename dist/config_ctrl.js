@@ -1,16 +1,16 @@
 ///<reference path="../node_modules/grafana-sdk-mocks/app/headers/common.d.ts" />
 System.register([], function(exports_1) {
-    var ChangeMyNameConfigCtrl;
+    var GAConfigCtrl;
     return {
         setters:[],
         execute: function() {
-            ChangeMyNameConfigCtrl = (function () {
-                function ChangeMyNameConfigCtrl($scope) {
+            GAConfigCtrl = (function () {
+                function GAConfigCtrl($scope) {
                 }
-                ChangeMyNameConfigCtrl.templateUrl = 'partials/config.html';
-                return ChangeMyNameConfigCtrl;
+                GAConfigCtrl.templateUrl = 'partials/config.html';
+                return GAConfigCtrl;
             })();
-            exports_1("ChangeMyNameConfigCtrl", ChangeMyNameConfigCtrl);
+            exports_1("GAConfigCtrl", GAConfigCtrl);
         }
     }
 });
